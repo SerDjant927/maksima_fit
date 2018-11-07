@@ -1,0 +1,148 @@
+.header{
+ height:50px;
+ background-color:#e33861; 
+ margin:0px;
+ padding:0px;
+ color: white;
+ font-family: Roboto;
+ font-size: 20px;
+position: relative;
+}
+.menu__list{
+ text-align: center;
+  
+}
+.menu_item{
+  display: inline;
+  
+}
+/*разбил строчку на два спана с разными классами для прописи разной прозрачности и размера текста*/
+.menu_item-s{
+opacity: 0.5;
+}
+
+.menu_item-b{
+
+  font-size: 30px;
+
+}
+
+.header__button{
+
+}
+
+.button__header_date{
+  position: absolute;
+ top:0px;
+left:10px;
+background-color: #ce365a;
+border-style: none;
+height: 50px;
+color:white;
+opacity: 
+}
+.button__header_phone{
+position: absolute;
+top:0px;
+right: 10px;
+background-color: #ce365a;
+border-style: none;
+height: 50px;
+color:white;
+opacity: 
+ 
+}
+
+
+.navigation{
+ height: 180px;
+ width:980px;
+  text-align: center;
+display: block;
+ background-color:gray;
+ 
+
+}
+.navigation__href{
+text-align: left;
+}
+
+.logo{
+ text-align: left;
+ height: 180px;
+ width: 100px;
+}
+
+
+}
+
+.nav__list{
+ 
+ float: left;
+  text-align: center;
+   display:inline-block;
+
+}
+.nav_item{
+
+ float:left;
+margin-right:45px;
+display: block;
+
+
+}
+.nav_link{
+  font-size: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+
+}
+
+.container{
+ height: 300px;
+ background-color: #fafdfe;
+ 
+}
+
+
+
+.slider{
+  height: 500px;
+
+}
+.slick-prev:before, .slick-next:before { 
+    color:red !important;
+  }
+.slider__dir{
+ width: 100%;
+  height: 500px;
+  overflow:hidden;
+  float: left;
+  margin:0 auto;
+}
+
+.slick-slider{
+list-style: none;
+   width: 980px;
+   padding:0px;
+   position: relative;
+   margin:0 auto;
+}
+
+.slider__item{
+float:left;
+   margin-right:25px;
+   display: block;
+
+}
+
+.calculator{
+ height: 300px;
+ background-color: #fafdfe;
+}
+.footer{
+ height: 300px;
+ background-color: #fafdfe;
+}
