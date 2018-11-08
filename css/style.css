@@ -1,5 +1,6 @@
 .header{
  height:50px;
+ width: 100%;
  background-color:#e33861; 
  margin:0px;
  padding:0px;
@@ -7,6 +8,14 @@
  font-family: Roboto;
  font-size: 20px;
 position: relative;
+}
+/*добавил блоки-контейнеры внутри основных для отцентровки как на макете*/
+
+.header-container{
+height: 50px;
+width: 980px;
+display: inline-block;
+padding-left: 184px;
 }
 .menu__list{
  text-align: center;
@@ -19,6 +28,7 @@ position: relative;
 /*разбил строчку на два спана с разными классами для прописи разной прозрачности и размера текста*/
 .menu_item-s{
 opacity: 0.5;
+
 }
 
 .menu_item-b{
@@ -32,62 +42,68 @@ opacity: 0.5;
 }
 
 .button__header_date{
-  position: absolute;
- top:0px;
-left:10px;
+position: absolute;
+top:0px;
+left:184px;
 background-color: #ce365a;
 border-style: none;
 height: 50px;
 color:white;
-opacity: 
+
 }
 .button__header_phone{
 position: absolute;
 top:0px;
-right: 10px;
+right: 184px;
 background-color: #ce365a;
 border-style: none;
 height: 50px;
 color:white;
-opacity: 
- 
 }
 
 
 .navigation{
- height: 180px;
- width:980px;
-  text-align: center;
-display: block;
- background-color:gray;
+height: 180px;
  
+text-align: center;
 
-}
-.navigation__href{
-text-align: left;
-}
+ }
+/*добавил блоки-контейнеры внутри основных для отцентровки как на макете*/
+ .navigation-container{
+  padding-left: 184px;
+  height: 180px;
+  width: 980px;
+ }
+.navigation-avatar{
 
+float:left;
+height: 180px;
+ width: 300px;
+}
 .logo{
- text-align: left;
+ 
  height: 180px;
  width: 100px;
+ float:left;
+ margin-left:5px;
+ margin-top: 10px;
 }
 
+.navigation__href{
 
 }
 
 .nav__list{
  
- float: left;
-  text-align: center;
-   display:inline-block;
+
+  
 
 }
 .nav_item{
 
  float:left;
 margin-right:45px;
-display: block;
+list-style-type: none;
 
 
 }
